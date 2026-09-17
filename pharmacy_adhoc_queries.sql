@@ -1,6 +1,6 @@
 -- ============================================================
---  ASTER PHARMACY — Healthcare Ad-Hoc SQL Project
---  Data: Apr–Aug 2025 | Store: KA - JPNAGAR 5TH PHASE
+--   Healthcare Ad-Hoc SQL Project
+--  Data: Apr–Aug 2025 | Store:
 --  Schema: dim_product, dim_store, dim_customer,
 --          fact_sales, fact_inventory, fact_gross_price
 -- ============================================================
@@ -8,7 +8,7 @@
 -- ─────────────────────────────────────────────────────────────
 -- #ad_hoc_request_1
 -- List all unique departments (product categories) sold at
--- Leading Pharmacy Retail Chain, JPNAGAR branch.
+--  Pharmacy Retail Chain
 -- ─────────────────────────────────────────────────────────────
 SELECT DISTINCT department
 FROM dim_product
